@@ -44,3 +44,18 @@ A Tampermonkey userscript that adds a draggable panel to Canvas, showing:
 ### Actualizaciones
 - Cada vez que publiques una nueva versión, cambia el número en `@version` dentro del encabezado del script.
 - Si configuras `@updateURL` y `@downloadURL` con el enlace Raw de este archivo, Tampermonkey actualizará automáticamente el script para los usuarios.
+
+---
+
+## 📌 Release Notes
+
+### v1.0
+- Initial release
+- Panel shows Missing, Upcoming, and Overdue assignments
+- Announcements excluded from Overdue section
+- Panel is draggable and can be toggled with a button
+
+### v1.1 (planned)
+- Improved date parsing for localized formats
+- Option to customize upcoming window (e.g., 14 days instead of 7)
+- Styling tweaks for better readability
