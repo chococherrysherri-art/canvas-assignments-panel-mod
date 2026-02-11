@@ -1,0 +1,23 @@
+# Canvas Assignments Panel Mod
+
+A Tampermonkey userscript that adds a draggable panel to Canvas, showing:
+- Missing assignments
+- Upcoming assignments (next 7 days)
+- Overdue assignments (excluding announcements)
+
+## Installation
+
+1. Install the Tampermonkey extension:
+   - [Tampermonkey for Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
+   - [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+   - [Tampermonkey for Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)
+
+2. Once Tampermonkey is installed, click the **Raw** link for [`assignments-panel.user.js`](./assignments-panel.user.js).
+
+3. Tampermonkey will prompt you to install the script. Click **Install**.
+
+4. Go to your Canvas dashboard (`udem.instructure.com`) and click the new **Assignments Panel** button.
+
+## Updates
+When you publish new versions, bump the `@version` number in the script header.  
+If you set `@updateURL` and `@downloadURL` to the Raw link of this file, Tampermonkey will auto-update for users.
