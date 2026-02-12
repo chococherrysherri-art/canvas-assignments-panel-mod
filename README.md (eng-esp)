@@ -52,8 +52,9 @@ A Tampermonkey userscript that adds a draggable panel to Canvas, showing:
 ### v1.0
 - Initial release
 - Panel shows Missing, Upcoming, and Overdue assignments
-- Announcements excluded from Overdue section
-- Panel is draggable and can be toggled with a button
+- Panel is draggable and can be toggled with a button 
+- Only works on dashboard (tablero) right now 
+- To see earlier or later assignments you will have to drag the page up and down.
 
 ### v1.1 (planned)
 - Improved date parsing for localized formats
